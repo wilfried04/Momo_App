@@ -1,0 +1,27 @@
+# MoMo_gest
+l'objectif est que les employes puissent faire bilan de la journée apres vente
+un cxapital a gerer = Total argent
+soldes de differents reseaux (credit)
+les dettes de la journée
+achat de credit en gros au cours de la journée cher un fournisseur
+les manquants
+la date du jours
+-MTN= solde
+-MOOV = solde
+-MOMO = solde
+-FLOOZ = solde
+-Espece = le cashe
+-Dette = 
+- Total
+  - retranche fourniseur
+  - Bonus apres achat de credit (cumulatif) exemple: 5000 = 200, 10000 = 400; 20000 = 800....
+    - a la fin l'algo permettra de comparer le solde rester au capital recu dans la journée.
+
+- Utilisateur(id, admin = boolen, nom, prenom, numero, password )
+- Employer(id, nom, prenom, numero de piece, email, photo, status, sexe, password)
+- ACHAT (id, idemployer, idreseau, Mont_achat, id founisseur, date)
+- //VENTE (id, nomcli, id employé, MontVente, idreseau,date)
+- Fournisseurs(id, nomfrse, prenomfrse, reseaux(Mtn ou Moov), tel, image)
+- reseau(Id, type, Action, montant)
+- Resultats(idAchat, idVente,idReseau, idFrse, idEmploy, Date)
+
